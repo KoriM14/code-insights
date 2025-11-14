@@ -1,5 +1,14 @@
-# Grok Product Insights 
+# Code Quality Dashboard
 **Built using Streamlit + Pandas**  
 Python data → interactive dashboard
 
-<img width="1143" height="855" alt="image" src="https://github.com/user-attachments/assets/c0d6f3d4-c9f4-473c-bd1d-e1e453fb6dbe" />
+- Analyzes **100+ Python code snippets**
+- Calculates **lines of code per function**
+- Groups into **quality tiers**: low (≤10), medium (11–30), high (>30)
+- Shows **interactive metrics + bar chart**
+
+### How to Run ###
+```bash
+pip install streamlit pandas numpy
+streamlit run main.py
+```
